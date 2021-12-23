@@ -141,4 +141,3 @@ DEVICE=cpu|gpu|host make genlib
 ```
 
 After that you can follow next steps [here](wrapper/python).
-# ff-GPGPU
