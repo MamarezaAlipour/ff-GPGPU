@@ -133,8 +133,7 @@ void six_step_fft(sycl::queue& q, uint64_t* vec, const uint64_t dim,
     const uint64_t wg_size);
 
 // Six step FFT algorithm based Inverse NTT implementation, which I've
-// adapted from https://doi.org/10.1109/FPT.2013.6718406 and
-// https://github.com/itzmeanjan/ff-gpu/blob/4d1cedb6ce5144382622632d7809d986543a95a0/reference/ntt.py#L154-L223
+// adapted from https://doi.org/10.1109/FPT.2013.6718406
 //
 // Returns inverse transform result in same input vector
 // so you'll loose your input, if you don't keep another copied version of it

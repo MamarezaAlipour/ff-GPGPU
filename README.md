@@ -98,7 +98,7 @@ DEVICE=gpu make aot_gpu
 
 **Targeting  Nvidia GPU with CUDA backend :**
 
-> For targeting Nvidia GPU, you want to run `DEVICE=gpu make cuda`, so that benchmark suite is compiled for CUDA backend. I suggest you read [this](https://github.com/itzmeanjan/ff-p254-gpu/blob/acbedab1dd653f7270ac917755286c565d2a8927/README.md#prerequisite) for setting up your machine with Nvidia GPU, if you've not yet.
+> For targeting Nvidia GPU, you want to run `DEVICE=gpu make cuda`, so that benchmark suite is compiled for CUDA backend.
 
 ---
 
